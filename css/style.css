@@ -57,19 +57,19 @@ main {
 }
 
 aside p a {
-    display: inline-flex;
+    display: inline-block;
     padding: 10px ;
-    margin-left: 300px;
+    margin-left: 100px auto;
     color: #004953;
     text-decoration-line: underline;
 }
 
 article p a {
     text-decoration: none;
-    display: inline-flex;
+    display: inline-block;
     font-size: 72px;
     padding: 30px;
-    margin-left: 215px;
+    margin-left: 100px auto;
 
 }
 
