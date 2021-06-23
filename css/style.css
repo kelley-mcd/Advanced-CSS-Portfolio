@@ -56,6 +56,10 @@ main {
     margin-left: 20px;
 }
 
+p {
+    ;
+}
+
 aside p a {
     display: inline-block;
     padding: 10px ;
@@ -69,7 +73,7 @@ article p a {
     display: inline-block;
     font-size: 72px;
     padding: 30px;
-    margin-left: 100px auto;
+    margin-left: 200px auto;
 
 }
 
