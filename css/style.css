@@ -10,7 +10,25 @@ body {
 
 .hero-image {
     width: 100%;
-    height: 250px;
+    height: 225px;
+}
+
+.header1 {
+    color: #ffffff;
+}
+
+.header2 {
+    color: #ffffff;
+}
+
+.header3 {
+    color: #ffffff;
+}
+
+.avatar {
+    width: 100px;
+    height: 130px;
+    border-radius: 75px;
 }
 
 .header {
@@ -48,6 +66,7 @@ h2 {
 main {
     width:75%;
     display: inline-block;
+    padding-left: 25px;
 }
 
 h2 {
@@ -79,13 +98,6 @@ p {
     font-size: 16px;
     }
 
-article p a {
-    font-size: 72px;
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none;
-}
-
 aside p a {
     color: #004953;
     display: inline-block;
@@ -93,6 +105,50 @@ aside p a {
     text-decoration-line: underline;
 }
 
+.Project1 {
+    display: block;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.Project2 {
+    display: block;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.Project3 {
+    display: block;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.Project4 {
+    display: block;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.Project5 {
+    display: block;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
 
 .footer {
     padding: 15px;
@@ -105,3 +161,8 @@ aside p a {
 .footer h4 {
     text-align: center;
 }
+
+@media screen 
+{ (min-width: 320px), (max-width: 480px), (orientation: portrait)
+}
+
